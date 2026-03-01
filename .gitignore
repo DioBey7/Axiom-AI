@@ -1,0 +1,20 @@
+# Çevre Değişkenleri (API Anahtarları)
+.env
+
+# Sanal Ortam
+venv/
+env/
+
+# Python Önbellekleri
+__pycache__/
+*.pyc
+
+# Axiom AI Yerel Veritabanları ve Geçici Dosyalar
+workspaces/
+temp/
+*.sqlite3
+chroma_db/
+
+# İşletim Sistemi Dosyaları
+.DS_Store
+Thumbs.db
