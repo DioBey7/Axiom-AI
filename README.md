@@ -65,7 +65,7 @@ Bu projeyi incelerken umarım siz de bir sistemin sınırlarını zorlamanın, s
 Mimari tasarımlara, veri yapılarına ve sistem optimizasyonlarına tutkulu bir yazılım mühendisliği öğrencisi olarak; açık kaynak dünyasındaki her türlü geri bildirime, fikir alışverişine ve ortak beyin fırtınalarına kapım sonuna kadar açık. Birlikte her zaman daha iyisini, daha güvenlisini ve daha performanslısını inşa edebiliriz!
 
 Ağımı genişletmekten ve yeni teknolojiler üzerine konuşmaktan büyük keyif alıyorum. Bana buralardan ulaşabilirsiniz:
-* 📧 E-Posta: [beyza04yazici005@gmail.com]
+* 📧 E-Posta: [beyza04yazici2005@gmail.com]
 * 🔗 LinkedIn: [www.linkedin.com/in/beyza-yazıcı-400183332]
 * 🐙 GitHub: [https://www.google.com/search?q=https://github.com/DioBey7]
 
