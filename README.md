@@ -1,8 +1,29 @@
 # 🏛️ Axiom AI: Bilişsel Öğrenme ve Mimari Ekosistemi
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=for-the-badge)
+
 Axiom AI, salt bilgi veren standart sohbet asistanlarının aksine; **Sistem Mimarisi, Yazılım Mühendisliği ve Derin Analitik** süreçleri için özel olarak tasarlanmış, **Çok Modlu (Multimodal) RAG** destekli otonom bir mentörlük ekosistemidir.
 
 Öğrenciye sadece kodu veya teoriyi vermekle kalmaz; arka plandaki "Neden?" sorusunu cevaplar, sektörel kullanım senaryoları (use-cases) sunar ve `Mermaid.js` tabanlı görsel akış şemalarıyla bilişsel hafızayı tetikler.
+
+## 🛠️ Sistem Mimarisi ve Kullanılan Teknolojiler (Tech Stack)
+
+Axiom AI, modern yapay zeka araçlarının ve veri işleme kütüphanelerinin birbirine entegre edildiği hibrit bir mimari üzerine kurulmuştur:
+
+* 🧠 **Yapay Zeka Motoru (LLM & Vision):** `Google Gemini 2.5 Flash` *(Hem metin sentezi hem de otonom görsel analiz - Vision RAG - için kullanıldı)*
+* ⚙️ **RAG Çerçevesi (Framework):** `LangChain` *(Core, Community ve Google GenAI modülleri ile vektör-model köprüsü kuruldu)*
+* 🗄️ **Vektör Veritabanı:** `ChromaDB` *(Yerel, izole ve kalıcı 'Çalışma Odası' hafızaları için tercih edildi)*
+* 🎨 **Arayüz (Frontend):** `Streamlit` *(Standart UI yerine özel CSS enjeksiyonu, Glassmorphism ve Dark Academia teması ile baştan tasarlandı)*
+* 📄 **Veri Boru Hattı (Data Pipeline):** * `PyPDF` (PDF ayrıştırma)
+  * `Docx2txt` (Word belgeleri)
+  * `Unstructured` (Karmaşık PPTX sunumları)
+  * `Pillow` (Görüntü/Piksel işleme)
+* 🌐 **Otonom Ajan (Web Fallback):** `DuckDuckGo Search API` *(Yerel bağlamda bulunmayan ekstrem senaryolar için otonom internet araması)*
+* 🖨️ **Dışa Aktarma (Export) Motoru:** `FPDF2` *(Kütüphanenin varsayılan render hatalarını aşmak için Python'un yerleşik `textwrap` modülüyle donanım seviyesinde güçlendirildi)*
 
 ## 🚀 Temel Mühendislik Özellikleri
 
