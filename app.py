@@ -221,12 +221,12 @@ class RAGEngine:
 
             except Exception as e:
                 error_str = str(e)
-                if "429" in error_str or "RESOURCE_EXHAUSTED" in error_str:
+                if any(err in error_str for err in ["429", "RESOURCE_EXHAUSTED", "500", "INTERNAL", "503"]):
                     if attempt < 2:
                         time.sleep(8)
                         continue
                     else:
-                        return "### ⏳ Sistem Uyarısı: Ağ Trafiği Sınırı\n\nGoogle API sınırlarına ulaştık. Sistem arka planda kendini onarmaya çalıştı ancak limitler şu an kapalı. Lütfen **1-2 dakika bekledikten sonra** sorunuzu tekrar iletin.", []
+                        return "### ⏳ Sistem Uyarısı: API Bağlantı Sınırı\n\nGoogle AI sunucularında anlık bir kesinti yaşanıyor veya limitlere ulaştık. Sistem arka planda kendini onarmaya çalıştı ancak bağlantı kurulamadı. Lütfen **1-2 dakika bekledikten sonra** sorunuzu tekrar iletin.", []
                 return f"### ⚠️ Sistem İstisnası\nYanıt üretimi sırasında kritik bir hata meydana geldi: `{error_str}`", []
 
 def get_workspaces():
