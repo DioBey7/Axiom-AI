@@ -40,7 +40,7 @@ Projeyi yerel makinenizde (Localhost) çalıştırmak için aşağıdaki adımla
 
 ### 1. Repoyu Klonlayın
 ```bash
-git clone [https://github.com/KULLANICI_ADINIZ/Axiom-AI.git](https://github.com/KULLANICI_ADINIZ/Axiom-AI.git)
+git clone [https://github.com/DioBey7/Axiom-AI.git](https://github.com/DioBey7/Axiom-AI.git)
 cd Axiom-AI
 ```
 
